@@ -23,7 +23,7 @@ contract Nomination {
     event AnnounceWinner(address winner,uint noOfvotes,bytes32 winnerDepartment);
 
     /* Constructor */
-    function Nomination (bytes32 organization) public {
+    function Constructor (bytes32 organization) public {
         _moderator = msg.sender;
         _orgaization = organization;
     }
