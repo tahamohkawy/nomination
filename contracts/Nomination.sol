@@ -5,10 +5,7 @@ contract Nomination {
     bytes32 _orgaization;
     address _moderator;
 
-    /*bool isNominatingStarted;
-    bool isNominatingFinished;
-    bool isVotingFinished;*/
-
+    
     uint nominationStartTime = now;
     uint nominationEndTime = now+5 days;
     uint votingEndTime = nominationEndTime+10 days;
